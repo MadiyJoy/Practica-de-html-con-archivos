@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Gospel'; /* Nombre de la fuente */
+    src: url("Fonts/Gospel.ttf") format('truetype'); /* Ruta al archivo TTF */
+    font-weight: normal;
+    font-style: normal;
+  }
+  body {
+    background-color: azure;
+  }
+  .site-nav {
+    width: 100%;
+    height: fit-content;
+    block-size: auto;
+    box-sizing: border-box;
+    position: fixed; 
+    background-color: aliceblue;
+  }
+
+  .nav__img-logo { 
+    display: inline;
+    width: 5%;
+    height: 5%; 
+    border: 1px solid gray;
+    box-shadow: 2px 2px 2px 0 darkgray;
+    border-radius: 20%; 
+    margin: 10px;
+  }
+  .nav__links {
+    display: inline;
+    box-sizing: border-box;
+    margin: 50px;
+  }
+  
+  .site-content {
+    padding-top: 100px;
+  }
+
+  .home-articles__link-img {
+    border: 1px solid gray;
+    box-shadow: 2px 2px 2px 0 darkgray;
+    border-radius: 20%; 
+    margin: 10px;
+  }
+  
