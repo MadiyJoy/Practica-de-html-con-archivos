@@ -8,16 +8,22 @@
     background-color: azure;
   }
   .site-nav {
-    top: 0%;
     width: 100%;
-    height: fit-content;
-    block-size: auto;
     box-sizing: border-box;
-    position: fixed; 
+    position: fixed;
+    top: 0;
+    left: 0;
     background-color: aliceblue;
-    margin: 0%;
+    padding: 10px 20px;
+    margin: 0;
+    z-index: 1000;
+    display: flex; /* Cambia la visualización del contenedor a flexbox */
+    align-items: center;
+    }
 
-  }
+    .nav__links{
+      
+    }
 
   .nav__img-logo { 
     display: inline;
@@ -44,4 +50,7 @@
     border-radius: 20%; 
     margin: 10px;
   }
+
+  
+
   
