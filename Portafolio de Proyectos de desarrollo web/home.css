@@ -17,13 +17,21 @@
     padding: 10px 20px;
     margin: 0;
     z-index: 1000;
-    display: flex; /* Cambia la visualización del contenedor a flexbox */
+    display: flex; 
     align-items: center;
+    justify-content: flex-start;
     }
 
     .nav__links{
-      
+      display: flex;
     }
+
+    .nav-links a {
+      text-decoration: none;
+      font-size: large;
+      color: #333; /* Ajusta el color del texto según sea necesario */
+      margin: 0 25px; /* Ajusta el espacio entre los enlaces según sea necesario */
+  }
 
   .nav__img-logo { 
     display: inline;
