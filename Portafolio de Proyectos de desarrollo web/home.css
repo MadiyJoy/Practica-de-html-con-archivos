@@ -8,12 +8,15 @@
     background-color: azure;
   }
   .site-nav {
+    top: 0%;
     width: 100%;
     height: fit-content;
     block-size: auto;
     box-sizing: border-box;
     position: fixed; 
     background-color: aliceblue;
+    margin: 0%;
+
   }
 
   .nav__img-logo { 
