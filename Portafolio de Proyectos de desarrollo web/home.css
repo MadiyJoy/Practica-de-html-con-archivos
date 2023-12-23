@@ -29,8 +29,8 @@
     .nav-links a {
       text-decoration: none;
       font-size: large;
-      color: #333; /* Ajusta el color del texto según sea necesario */
-      margin: 0 25px; /* Ajusta el espacio entre los enlaces según sea necesario */
+      color: #333; 
+      margin: 0 25px; 
   }
 
   .nav__img-logo { 
