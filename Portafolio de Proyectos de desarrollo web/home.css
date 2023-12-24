@@ -47,7 +47,9 @@
     box-sizing: border-box;
     margin: 50px;
   }
-  
+  .home-title {
+    width: 100%;
+  }
   .site-content {
     padding-top: 100px;
   }
@@ -58,6 +60,36 @@
     border-radius: 20%; 
     margin: 10px;
   }
+
+  .site-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.site-aside {
+    width: 25%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.home-articles {
+    display: flex;
+    width: 75%;
+    flex-wrap: wrap;
+}
+
+.home-articles article {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+    max-width: 100%; /* Ajusta según sea necesario */
+}
+
+.home-articles__link-img {
+    max-width: 100%;
+}
+
 
   
 
